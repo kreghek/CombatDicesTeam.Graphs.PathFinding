@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5EE14083-92EC-4572-BE2D-483666CE5EDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatDicesTeam.Graphs.PathFinding", "src\CombatDicesTeam.Graphs.PathFinding\CombatDicesTeam.Graphs.PathFinding.csproj", "{B099D6DB-D119-4A52-9405-119C3E5F53E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7CEA56BB-8B03-4717-A6B7-F2750885F7C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatDicesTeam.Graphs.PathFinding.Tests", "tests\CombatDicesTeam.Graphs.PathFinding.Tests\CombatDicesTeam.Graphs.PathFinding.Tests.csproj", "{81C9BB91-1A96-4357-A59E-9754941830EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B099D6DB-D119-4A52-9405-119C3E5F53E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B099D6DB-D119-4A52-9405-119C3E5F53E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B099D6DB-D119-4A52-9405-119C3E5F53E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B099D6DB-D119-4A52-9405-119C3E5F53E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C9BB91-1A96-4357-A59E-9754941830EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C9BB91-1A96-4357-A59E-9754941830EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C9BB91-1A96-4357-A59E-9754941830EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C9BB91-1A96-4357-A59E-9754941830EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B099D6DB-D119-4A52-9405-119C3E5F53E5} = {5EE14083-92EC-4572-BE2D-483666CE5EDA}
+		{81C9BB91-1A96-4357-A59E-9754941830EB} = {7CEA56BB-8B03-4717-A6B7-F2750885F7C6}
+	EndGlobalSection
+EndGlobal
