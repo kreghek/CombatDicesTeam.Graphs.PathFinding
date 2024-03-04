@@ -10,8 +10,9 @@ internal static class SortedListExtensions
     /// </summary>
     /// <param name="sortedList">SortedList to add the node to.</param>
     /// <param name="node">Node to add to the sortedList.</param>
-    /// <param name="data"> Данные узла для алгоритма. </param>
-    internal static void AddWithData<TPayload>(this SortedList<int, IGraphNode<TPayload>> sortedList, IGraphNode<TPayload> node, AStarData<TPayload> data)
+    /// <param name="data"> Node data for the algorithm. </param>
+    internal static void AddWithData<TPayload>(this SortedList<int, IGraphNode<TPayload>> sortedList,
+        IGraphNode<TPayload> node, AStarData<TPayload> data)
     {
         sortedList.Add(data.TotalCost, node);
     }
@@ -21,7 +22,7 @@ internal static class SortedListExtensions
     /// </summary>
     /// <param name="sortedList">SortedList to check if it is empty.</param>
     /// <returns>True if sortedList is empty, false if it still has elements.</returns>
-    internal static bool IsEmpty<TKey, TValue>(this SortedList<TKey, TValue> sortedList)
+    internal static bool IsEmpty<TKey, TValue>(this SortedList<TKey, TValue> sortedList) where TKey : notnull
     {
         return sortedList.Count == 0;
     }
